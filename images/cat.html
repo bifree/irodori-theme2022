@@ -1,0 +1,25 @@
+<div class="cat_list">
+	<?php
+			$categories = get_categories();
+			foreach ($categories as $category):
+	?>
+	<h2><a href="<?php echo esc_url(get_category_link($category->term_id)); ?>"><?php echo $category->name; ?></a></h2>
+	<?php
+			$my_query = new WP_Query(
+					array(
+							'cat' => $category->term_id,
+							'posts_per_page' => 3,
+					));
+			if ($my_query->have_posts()):
+	?>
+	<ul>
+	<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+	<?php endwhile; ?>
+	</ul>
+	<?php wp_reset_postdata(); ?>
+	<?php else: ?>
+			<p>投稿はありません。</p>
+	<?php endif; ?>
+	<?php endforeach; ?>
+</div>

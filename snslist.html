@@ -1,0 +1,79 @@
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title><?php bloginfo( 'name' ); ?></title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/reset.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/sp_style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<?php wp_head(); ?>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<p><span class="blue__marker">こん</span>にちは</p>
+
+<div class="snslist">
+	<a href="https://www.facebook.com/irodori.odori" class="sns__list"><i class="fab fa-facebook fa-3x"></i></a>
+	<a href="https://www.instagram.com/irodori_odori/?hl=ja" class="sns__list"><img src="<?php echo get_template_directory_uri(); ?>/images/Instagram.png" alt="" width="50" height="50" style="vertical-align: baseline;"></a>
+	<a href="https://twitter.com/irodori_odori" class="sns__list"><i class="fab fa-twitter fa-3x"></i></a>
+	<br class="d-none-pc">
+	<i class="fab fa-line fa-3x"></i>
+	<a href="https://note.com/irodori_odori/" class="sns__list"><img src="<?php echo get_template_directory_uri(); ?>/images/note.png" alt="" width="50" height="50" style="vertical-align: baseline;"></a>
+	<a href="https://youtube.com/irodori_odori/" class="sns__list"><img src="<?php echo get_template_directory_uri(); ?>/images/youtubeicon.png" alt="" width="50" height="50" style="vertical-align: baseline;"></a>
+</div>
+
+<style>
+
+.snslist {
+	height: 50px;
+	margin-top: 82px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.snslist i {
+	width: 50px;
+	height: 50px;
+	margin-right: 70px;
+	margin-bottom: 5px;
+}
+
+.snslist img {
+	width: 45px;
+	height: 45px;
+	padding-top: 5px;
+	margin-right: 70px;
+	vertical-align: baseline;
+}
+
+.d-none-pc {
+	display: none;
+}
+
+	
+@media screen and (max-width: 720px){
+	.snslist {
+		height: auto;
+		width: 312px;
+		display: flex;
+		justify-content: space-between;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.snslist i {
+		margin-right: 0;
+	}
+	
+	.snslist img {
+		margin-right: 0;
+	}
+
+
+.d-none-pc {
+	display: inherit;
+}
+}
+</style>
