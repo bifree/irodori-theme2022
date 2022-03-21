@@ -1152,3 +1152,174 @@ a.event__list{
 		display: flex;
 		justify-content: space-between;
 	}
+
+/* サービス */
+.service__container{
+	max-width:1080px;
+	margin:0 auto;
+	padding:0 25px;
+	line-height:2;
+}
+.service__title{
+	text-align:center;
+	font-size:60px;
+	font-weight:bold;
+	margin:150px 0 50px;
+}
+
+.service__voice__title,.service__flow__title{
+	width:100%;
+	height:50px;
+	font-size:22px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#fff;
+	background:#EC6D74;
+	margin-bottom:50px;
+}
+
+.service__voice__item{
+	display:flex;
+	margin-bottom:30px;
+}
+
+.voice__item__left{
+	margin-right:60px;
+}
+
+.voice__item__img{
+	width:200px;
+	text-align:center;
+}
+
+.voice__item__image{
+	width:150px;
+	height:150px;
+}
+
+.voice__item__people{
+	font-size:14px;
+	text-align:center;
+	width:200px;
+}
+
+.voice__item__text{
+	border:2px solid #EC6D74;
+	border-radius:20px;
+	padding:30px 25px;
+	position:relative;
+}
+
+.voice__item__text::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -30px;
+  top:40px;
+  border-right: 30px solid #EC6D74;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.voice__item__text::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -26px;
+  top: 40px;
+  border-right: 30px solid #fff;
+	border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.service__btn{
+	width:300px;
+	height:60px;
+	font-size:22px;
+	font-weight:bold;
+	color:#fff;
+	background: #D0397A;
+	border:solid 2px  #D0397A;
+	border-radius:20px;
+	margin:60px auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.service__btn:hover{
+	color:#D0397A;
+	background: #fff;
+}
+
+.service__flow__list{
+	width:800px;
+	margin:0 auto;
+}
+
+.flow__list__title{
+	color:#EC6D74;
+	font-size:22px;
+	font-weight:bold;
+}
+
+.flow__list__title:nth-child(n+2){
+	margin-top:30px;
+}
+
+
+/* 買い物同行 */
+.shopping__top{
+	display:flex;
+}
+
+.shopping__top__text{
+	width:50%;
+	padding-right:20px;
+}
+
+.shopping__top__img{
+	width:50%;
+}
+
+.shopping__list{
+	margin:30px 0 85px;
+}
+
+.shopping__list__title{
+	color:#EC6D74;
+	font-size:22px;
+	font-weight:bold;
+}
+
+.shopping__list__title:nth-child(n+2){
+	margin-top:30px;
+}
+
+.shopping__list__items{
+	font-size:14px;
+	padding:10px;
+	border:2px solid #EC6D74;
+}
+
+.shopping__course__title{
+	font-weight:bold;
+	border-bottom:2px solid #EC6D74;
+}
+
+.shopping__voice__youtube{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:50px;
+}
+
+
+
+
+
+
