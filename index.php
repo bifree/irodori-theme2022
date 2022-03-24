@@ -44,7 +44,7 @@
 				バレエが初めての方でも経験者でも、性別・ジェンダー問わずどなたでも参加大歓迎！<br>
 従来のバレエのように性別で役割を決めつけることはせず、自身の表現したいままに踊れるバレエレッスンです。
 				</p>
-				<a href="" class="btn__service" id="target">詳しくみる  <span class="span__blue" id="spantarget">>></span></a>
+				<a href="https://www.street-academy.com/myclass/90108?conversion_name=direct_message&tracking_code=f3eda923d0b277d554ec1a389e12c0f7" class="btn__service" id="target">詳しくみる  <span class="span__blue" id="spantarget">>></span></a>
 				</div>
 			</div>
 			<hr>
@@ -71,7 +71,7 @@
 				<p>
 				セミナーや交流会も開催しています。テーマはファッション・美容・労働など様々です。
 				</p>
-					<a href="" class="btn__service" id="target">詳しくみる  <span class="span__blue" id="spantarget">>></span></a>
+					<a href="https://irodori-odori.com/category/event_info/" class="btn__service" id="target">詳しくみる  <span class="span__blue" id="spantarget">>></span></a>
 				</div>
 			</div>
 
