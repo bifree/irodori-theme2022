@@ -758,8 +758,12 @@ span.small{
 	margin-bottom: 60px;
 }
 
-.privacy__p p{
+.privacy__p p,.terms__content{
 	font: normal normal 16px/32px YuGothic;
+}
+
+.terms__content{
+	margin-left:20px;
 }
 
 .article__title {

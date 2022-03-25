@@ -472,6 +472,10 @@
 	.privacy__p p{
 		font-size: 14px;
 	}
+
+	.terms__content{
+		font-size: 14px;
+	}
 	
 	#footer ul li{
 		width: 143px;
