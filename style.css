@@ -480,6 +480,7 @@ header li a{
 	padding-top: 60px;
 	color: #ffffff;
 	display: flex;
+	max-width:100%;
 }
 
 #footer ul{
@@ -517,6 +518,10 @@ header li a{
 	margin-top: 82px;
 	margin-bottom: 80px;
 	text-align: center;
+}
+
+footer{
+	overflow: hidden;
 }
 
 #footer ul li{
@@ -632,7 +637,6 @@ h3.page__title {
 
 .sidebar__detail {
 background-color: #555;
-color: #fff !important;
 cursor: pointer;
 width: 180px;
 height: 36px;
@@ -640,6 +644,10 @@ line-height: 36px;
 margin-top: 20px;
 border-radius: 25px;
 text-align: center;
+}
+
+.sidebar__detail a{
+	color:#fff;
 }
 
 .tags__date {
@@ -982,6 +990,10 @@ label {
 	cursor: pointer;
 }
 
+.pointer{
+	cursor:pointer;
+}
+
 /* カルーセル -----------------------------------------------*/
 
 .question__{
@@ -1160,6 +1172,15 @@ a.event__list{
 	padding:0 25px;
 	line-height:2;
 }
+
+.service__bold{
+	font-weight:bold;
+}
+
+.service__pink{
+	color:#EC6D74;
+}
+
 .service__title{
 	text-align:center;
 	font-size:60px;
@@ -1250,6 +1271,7 @@ a.event__list{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	box-shadow:4px 4px rgba(51, 51, 51, 0.2);
 }
 
 .service__btn:hover{
@@ -1257,8 +1279,23 @@ a.event__list{
 	background: #fff;
 }
 
+.report__btn{
+	color:#EC6D74;
+	font-size:22px;
+	font-weight:bold;
+	margin:60px auto 0px;
+	width:170px;
+	display:flex;
+	justify-content:center;
+
+}
+
+.report__btn:hover{
+	border-bottom:2px solid #EC6D74;
+}
+
 .service__flow__list{
-	width:800px;
+	max-width:800px;
 	margin:0 auto;
 }
 
@@ -1270,6 +1307,46 @@ a.event__list{
 
 .flow__list__title:nth-child(n+2){
 	margin-top:30px;
+}
+
+.flow__list__img{
+	max-width:700px; 
+	margin:0 auto;
+}
+
+.fixed__btn{
+	position:fixed;
+	bottom:50px;
+	right:20px;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background:#D0397A;
+	border:2px solid#D0397A;
+  display:flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow:4px 4px rgba(51, 51, 51, 0.2);
+}
+
+.fixed__btn__a{
+	width:100px;
+	height:100px;
+	color:#fff;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.fixed__btn:hover{
+	background:#fff;
+}
+
+.fixed__btn__a:hover{
+	color:#D0397A;
 }
 
 
@@ -1307,19 +1384,22 @@ a.event__list{
 	border:2px solid #EC6D74;
 }
 
-.shopping__course__title{
+.shopping__course1__title,.shopping__course2__title{
 	font-weight:bold;
 	border-bottom:2px solid #EC6D74;
 }
 
-.shopping__voice__youtube{
-	display:flex;
-	justify-content:space-between;
-	margin-bottom:50px;
+.shopping__course2__title{
+	margin-top:10px;
 }
 
+.shopping__voice__youtube{
+	display:flex;
+	justify-content:center;
+	margin:0 auto;
+	flex-wrap:wrap;
+}
 
-
-
-
-
+.voice__youtube__left,.voice__youtube__right{
+	margin:0 10px 50px 10px;
+}
