@@ -58,7 +58,7 @@
 				レディースアイテムやコスメのショッピングに、トランス女性またはシス女性スタッフが同行します。<br>
 「レディースファッションを身に付けたい」というすべての方の「はじめの一歩」に寄り添います。
 				</p>
-				<a href="" class="btn__service" id="target">詳しくみる  <span class="span__blue" id="spantarget">>></span></a>
+				<a href="https://irodori-odori.com/ladies-shopping/" class="btn__service" id="target">詳しくみる  <span class="span__blue" id="spantarget">>></span></a>
 				</div>
 			</div>
 			<hr>
@@ -73,14 +73,6 @@
 				</p>
 					<a href="https://irodori-odori.com/category/event_info/" class="btn__service" id="target">詳しくみる  <span class="span__blue" id="spantarget">>></span></a>
 				</div>
-			</div>
-
-			<div class="center">
-				<a href="https://irodori-odori.com/service/"><div class="eventlists__btn">
-					イベント一覧  <i class="far fa-calendar-alt"></i>
-				</div></a>
-			</div>
-
 			</div>
 		</div>
 

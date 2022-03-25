@@ -10,13 +10,8 @@
 					<ul>
 						<li>SERVICE</li>
 						<li><a href="https://www.street-academy.com/myclass/90108?conversion_name=direct_message&tracking_code=f3eda923d0b277d554ec1a389e12c0f7">バレエレッスン</a></li>
-						<li><a href="<?php
-echo get_page_link( 20 );
-?>">レディースファッション<br>買い物同行</a></li>
+						<li><a href="https://irodori-odori.com/ladies-shopping/">レディースファッション<br>買い物同行</a></li>
 					<li><a href="https://irodori-odori.com/category/event_info/">イベント開催</a></li>
-					<li><a href="<?php
-echo get_page_link( 15 );
-?>">イベント一覧</a></li>
 					</ul>
 					<ul>
 						<li>BLOG</li>
