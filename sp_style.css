@@ -270,10 +270,11 @@
 	}
 	
 	.btn__contact {
-		width: 325px;
-		height: 90px;
-		line-height: 90px;
+		max-width:280px;
+		height:60px;
+		line-height:auto;
 		text-align: center;
+		margin:0 auto;
 	}
 	
 	.main__container {
@@ -444,10 +445,38 @@
 		font: normal bold 45px/77px YuGothic;
 	}
 	
-	.newslist {
-		margin: 0 auto 160px;
-		width: 90%;
-		height: 200px;
+	.top__news {
+		margin-bottom:100px;
+		height:auto;
+		padding:60px 20px;
+	}
+	
+	.top__news__list{
+		height:85px;
+		margin:0;
+		flex-direction: column;
+	}
+			
+	.top__news__dc{
+		margin-bottom:10px;
+		justify-content:left;
+		width:100%;
+	}
+	
+	.top__news__date{
+		width:auto;
+		font-size:14px;
+	}
+	
+	.top__news__list .post-categories{
+		font-size:14px;
+		margin:0 0 0 10px;
+	}
+	
+	.top__news__title{
+		font-size:18px;
+		width:100%;
+		text-align: left;
 	}
 	
 	.snslist {

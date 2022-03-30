@@ -11,14 +11,14 @@ echo get_page_link( 10 );
 				<li><a href="https://irodori-odori.com/category/event_info/">▶︎ イベント開催</a></li>
 			</ul>
 		</li>
-		<li class="sub--menu"><a href="http://localhost:8888/irodori/blog__activity/">BLOG</a>
+		<li class="sub--menu"><a href="https://irodori-odori.com/blog__list/">BLOG</a>
 			<ul class="submenu">
-				<li><a href="#">▶︎ お知らせ</a></li>
-				<li><a href="#">▶︎ イベント情報</a></li>
-				<li><a href="#">▶︎ 活動報告</a></li>
+				<li><a href="https://irodori-odori.com/category/news/">▶︎ お知らせ</a></li>
+				<li><a href="https://irodori-odori.com/category/event_info/">▶︎ イベント情報</a></li>
+				<li><a href="https://irodori-odori.com/category/activity/">▶︎ 活動報告</a></li>
 				</ul>
 		</li>
-		<a href="http://localhost:8888/irodori/contact/"><div class="contact">
+		<a href="https://irodori-odori.com/contact/"><div class="contact">
 		CONTACT<i class="fas fa-paper-plane"></i>
 		</div></a>
 	</ul>

@@ -15,17 +15,13 @@
 					</ul>
 					<ul>
 						<li>BLOG</li>
-						<li><a href="<?php
-echo get_page_link( 20 );
-?>">お知らせ</a></li>
+						<li><a href="https://irodori-odori.com/category/news/">お知らせ</a></li>
 						<li><a href="https://irodori-odori.com/category/event_info/">イベント情報</a></li>
 						<li><a href="https://irodori-odori.com/category/activity/">活動報告</a></li>
 					</ul>
 					<ul>
 						<li>CONTACT</li>
-						<li><a href="<?php
-echo get_page_link( 30 );
-?>">お問い合わせ</a></li>
+						<li><a href="https://irodori-odori.com/contact/">お問い合わせ</a></li>
 					</ul>
 					<div class="footer__sub">
 						<a href="https://irodori-odori.com/contact/"><p class="footer__btn">よくある質問</p></a>

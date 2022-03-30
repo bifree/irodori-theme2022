@@ -18,7 +18,7 @@
     </div>
 </div>
 
-<div class="related">
+<!-- <div class="related">
 	<div class="container_center">
 	<h2>関連記事はこちら</h2>
 	<div class="d-flex">
@@ -72,7 +72,7 @@
 	</div>
 	</div>
 	</div>
-</div>
+</div>-->
 
 <?php get_footer(); ?>
 
