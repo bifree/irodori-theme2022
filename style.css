@@ -333,6 +333,7 @@ header li a{
 	background-color: rgb(255, 252, 232);
 	margin-top: 100px;
 	margin-bottom: 100px;
+	padding-bottom:100px;
 }
 
 .serviceslist h1{
@@ -503,14 +504,61 @@ header li a{
 	font: normal bold 45px/77px YuGothic;
 }
 
-.newslist {
+.top__news {
 	margin-bottom: 160px;
 	border: 1px #333 solid;
-	width: 1080px;
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	max-width: 1080px;
+	height:480px;
+	padding:80px 20px;
+	box-sizing:border-box;
+}
+
+.top__news__list{
+  max-width:830px;
+	height:80px;
+	margin:0 auto;
+	border-top:#555 dashed 1px;
+	display:flex;
+	align-items:center;
+	overflow:hidden;
+	padding:10px 0;
+}
+
+.top__news__list:last-child{
+	border-bottom:#333 dashed 1px;
+}
+
+.top__news__list li{
+	list-style:none;
+}
+
+.top__news__dc{
+	display:flex;
+	align-items:center;
+}
+
+.top__news__date{
+	font-size:16px;
+	width:85px;
+}
+
+.top__news__list .post-categories{
+	width:80px;
+	background:#ED5F5B;
+	color:#fff;
+	font-size:16px;
+	margin:0 10px;
+}
+
+.top__news__title{
+	font-size:20px;
+	text-align: left;
+	line-height:1.2;
+}
+
+.top__news__title a{
+	border-bottom:1px solid #999;
+
 }
 
 .snslist {
