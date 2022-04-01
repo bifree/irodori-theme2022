@@ -11,9 +11,9 @@
 		</li>
 		<li class="sub--menu"><a href="https://irodori-odori.com/blog__list/">BLOG</a>
 			<ul class="submenu">
-				<li><a href="https://irodori-odori.com/?p=178">▶︎ お知らせ</a></li>
-				<li><a href="https://irodori-odori.com/404-2/">▶︎ イベント情報</a></li>
-				<li><a href="https://irodori-odori.com/404-2/">▶︎ 活動報告</a></li>
+				<li><a href="https://irodori-odori.com/category/news/">▶︎ お知らせ</a></li>
+				<li><a href="https://irodori-odori.com/category/event_info/">▶︎ イベント情報</a></li>
+				<li><a href="https://irodori-odori.com/category/activity/">▶︎ 活動報告</a></li>
 				</ul>
 		</li>
 		<a href="https://irodori-odori.com/contact/"><div class="contact">
