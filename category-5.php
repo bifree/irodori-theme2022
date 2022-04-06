@@ -1,5 +1,5 @@
 <?php
-/*Template Name: kategori*/
+/*Template Name: イベント情報*/
 //イベント情報
 ?>
 
