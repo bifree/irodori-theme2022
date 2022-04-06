@@ -1,9 +1,7 @@
 <nav>
 	<ul>
 		<li><a href="<?php echo esc_url( home_url('/') ); ?>">HOME</a></li>
-		<li><a href="<?php
-echo get_page_link( 10 );
-?>">ABOUT</a></li>
+		<li><a href="<?php echo esc_url( home_url('/about') ); ?>">ABOUT</a></li>
 		<li class="sub--menu"><a class="pointer">SERVICE</a>
 			<ul class="submenu">
 				<li><a href="https://www.street-academy.com/myclass/90108?conversion_name=direct_message&tracking_code=f3eda923d0b277d554ec1a389e12c0f7">▶︎ バレエレッスン</a></li>
