@@ -25,8 +25,8 @@
 			活動を通じて、誰もが自分らしく表現できる世界、そして自分の思いを実現できる世界を目指します。
 			</p>
 			<div class="center">
-				<a href="/about" class="btn__about">
-					私たちについて  <span class="span__blue">>></span>
+				<a href="" class="btn__about about__arrow">
+					私たちについて
 				</a>
 			</div>
 		</div>
@@ -44,7 +44,7 @@
 					バレエが初めての方でも経験者でも、性別・ジェンダー問わずどなたでも参加大歓迎！<br>
 					従来のバレエのように性別で役割を決めつけることはせず、自身の表現したいままに踊れるバレエレッスンです。
 					</p>
-					<a href="https://www.street-academy.com/myclass/90108?conversion_name=direct_message&tracking_code=f3eda923d0b277d554ec1a389e12c0f7" class="btn__service" id="target">詳しくみる  <span class="span__blue" id="spantarget">>></span></a>
+					<a href="https://www.street-academy.com/myclass/90108?conversion_name=direct_message&tracking_code=f3eda923d0b277d554ec1a389e12c0f7" class="btn__service btn__arrow" id="target">詳しくみる</a>
 					</div>
 				</div>
 				<hr>
@@ -58,7 +58,7 @@
 					レディースアイテムやコスメのショッピングに、トランス女性またはシス女性スタッフが同行します。<br>
 					「レディースファッションを身に付けたい」というすべての方の「はじめの一歩」に寄り添います。
 					</p>
-					<a href="https://irodori-odori.com/ladies-shopping/" class="btn__service" id="target">詳しくみる  <span class="span__blue" id="spantarget">>></span></a>
+					<a href="https://irodori-odori.com/ladies-shopping/" class="btn__service btn__arrow" id="target">詳しくみる</a>
 					</div>
 				</div>
 				<hr>
@@ -71,7 +71,7 @@
 					<p>
 					セミナーや交流会も開催しています。テーマはファッション・美容・労働など様々です。
 					</p>
-						<a href="https://irodori-odori.com/category/event_info/" class="btn__service" id="target">詳しくみる  <span class="span__blue" id="spantarget">>></span></a>
+						<a href="https://irodori-odori.com/category/event_info/" class="btn__service btn__arrow arrow__hover" id="target">詳しくみる</a>
 					</div>
 				</div>
 			</div>
