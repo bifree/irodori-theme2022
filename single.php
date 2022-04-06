@@ -7,7 +7,7 @@
   <div class="main__bar">
 		<div class="main__bar__top">
 			<div class="article__category">
-				<?php the_category(); ?>disp
+				<?php the_category(); ?>
 			</div>
 			<div class="tags">
 				<p class="tag__p"><?php the_tags( '<i class="fas fa-tag"></i>', ' 、 ' ); ?> <i class="far fa-clock"></i><?php echo get_the_date('Y.n.j'); ?></p>

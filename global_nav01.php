@@ -1,6 +1,6 @@
 <nav>
 	<ul>
-		<li><a href="<?php echo esc_url( home_url('/') ); ?>">HOME</a></li>
+		<li><a href="<?php echo esc_url( home_url('/') ); ?>">HHaHOME</a></li>
 		<li><a href="https://irodori-odori.com/about/">ABOUT</a></li>
 		<li class="sub--menu"><a>SERVICE</a>
 			<ul class="submenu">

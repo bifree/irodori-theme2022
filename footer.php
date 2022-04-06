@@ -4,23 +4,23 @@
 			<div class="footer">
 				<div id="footer" class="footer__main">
 					<ul>
-						<li>ABOUT</li>
+						<li class="footer__item">ABOUT</li>
 						<li><a href="https://irodori-odori.com/about/">私たちについて</a></li>
 					</ul>
 					<ul>
-						<li>SERVICE</li>
+						<li class="footer__item">SERVICE</li>
 						<li><a href="https://www.street-academy.com/myclass/90108?conversion_name=direct_message&tracking_code=f3eda923d0b277d554ec1a389e12c0f7">バレエレッスン</a></li>
 						<li><a href="https://irodori-odori.com/ladies-shopping/">レディースファッション<br>買い物同行</a></li>
 					<li><a href="https://irodori-odori.com/category/event_info/">イベント開催</a></li>
 					</ul>
 					<ul>
-						<li>BLOG</li>
+						<li class="footer__item">BLOG</li>
 						<li><a href="https://irodori-odori.com/category/news/">お知らせ</a></li>
 						<li><a href="https://irodori-odori.com/category/event_info/">イベント情報</a></li>
 						<li><a href="https://irodori-odori.com/category/activity/">活動報告</a></li>
 					</ul>
 					<ul>
-						<li>CONTACT</li>
+						<li class="footer__item">CONTACT</li>
 						<li><a href="https://irodori-odori.com/contact/">お問い合わせ</a></li>
 					</ul>
 					<div class="footer__sub">
