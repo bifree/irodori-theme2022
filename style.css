@@ -421,7 +421,6 @@ header li a{
 	height: 60px;
 	line-height: 60px;
 	text-align: center;
-	m
 }
 
 .fa-facebook {
@@ -1528,4 +1527,8 @@ a.event__list{
 
 .voice__youtube__left,.voice__youtube__right{
 	margin:0 10px 50px 10px;
+}
+
+.flow__list__img img {
+	width: 100%;
 }
