@@ -25,7 +25,7 @@
 			活動を通じて、誰もが自分らしく表現できる世界、そして自分の思いを実現できる世界を目指します。
 			</p>
 			<div class="center">
-				<a href="" class="btn__about">
+				<a href="/about" class="btn__about">
 					私たちについて  <span class="span__blue">>></span>
 				</a>
 			</div>
