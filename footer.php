@@ -25,7 +25,7 @@
 					</ul>
 					<div class="footer__sub">
 						<a href="https://irodori-odori.com/contact/"><p class="footer__btn">よくある質問</p></a>
-						<a href="https://irodori-odori.com/terms_of_service/"><p class="footer__btn">利用規約</p></a>
+						<a href="https://irodori-odori.com/terms_of_service/"><p class="footer__btn">同行サービス利用規約</p></a>
 						<a href="https://irodori-odori.com/privacy-policy/"><p class="footer__btn">プライバシーポリシー</p></a>
 					<img src="" alt="">
 					</div>
