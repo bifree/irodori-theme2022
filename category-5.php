@@ -31,7 +31,7 @@
 
     <div class="blog__box">
       <div class="thumbnail">
-        <img src="" alt="">
+        <?php the_post_thumbnail( 'medium' ); ?>
       </div>
       <div class="tags__date">
         <span class="category__event">
