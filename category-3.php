@@ -1,5 +1,5 @@
 <?php
-/*Template Name: kategori*/
+/*Template Name: お知らせ*/
 // カテゴリ：お知らせ
 ?>
 
@@ -33,7 +33,7 @@
         <?php the_post_thumbnail( 'medium' ); ?>
       </div>
       <div class="tags__date">
-        <span class="category__activity">
+        <span class="category__news">
           <?php the_category(); ?>
         </span>
         <span class="small">

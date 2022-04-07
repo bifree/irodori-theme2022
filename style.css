@@ -831,6 +831,10 @@ text-align: center;
 	flex-wrap: wrap;
 }
 
+ul.post-categories {
+	list-style: none;
+}
+
 .category__title {
 	display: block;
 	font-size: 40px;
@@ -845,6 +849,13 @@ text-align: center;
 	height: 20px;
 }
 
+span.event_info {
+	background-color: #FFA53C;
+		display: inline-block;
+	width: 150px;
+	height: 20px;
+}
+
 .category__news > ul{
 	background-color: #FF5254;
 	color: #fff;
@@ -853,10 +864,24 @@ text-align: center;
 	height: 20px;
 }
 
+span.news {
+	background-color: #FF5254;
+		display: inline-block;
+	width: 150px;
+	height: 20px;
+}
+
 .category__activity > ul{
 	background-color: #8CD19D;
 	color: #fff;
 	display: inline-block;
+	width: 150px;
+	height: 20px;
+}
+
+span.activity {
+	background-color: #8CD19D;
+		display: inline-block;
 	width: 150px;
 	height: 20px;
 }

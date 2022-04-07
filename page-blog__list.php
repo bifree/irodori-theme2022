@@ -28,9 +28,10 @@
       <?php the_post_thumbnail( 'medium' ); ?>
       </div>
       <div class="tags__date">
-        <span class="category__activity">
+		  <span class="<?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->slug; } ?>" style=""><?php the_category(); ?></span>
+<!--         <span class="category__activity">
           <?php the_category(); ?>
-        </span>
+        </span> -->
         <span class="small">
           <i class="far fa-clock"></i><?php echo get_the_date('Y.n.j'); ?>
         </span>
