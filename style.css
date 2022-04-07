@@ -1558,6 +1558,10 @@ a.event__list{
 	width:50%;
 }
 
+.shopping__top__img img{
+	width:100%;
+}
+
 .shopping__list{
 	margin:30px 0 85px;
 }
