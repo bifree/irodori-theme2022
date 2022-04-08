@@ -620,13 +620,6 @@ header li a{
 
 }
 
-.snslist {
-	height: 50px;
-	margin-top: 82px;
-	margin-bottom: 80px;
-	text-align: center;
-}
-
 .footer{
 	padding:0 10px; 
 }
@@ -680,24 +673,32 @@ p.white , span.white{
 	display: none;
 }
 
-.snslist i {
+.snslist {
+	max-width:900px;
+	padding:0 20px;
+	height: 50px;
+	margin: 82px auto 80px;
+	text-align: center;
+	display:flex;
+	justify-content:space-between;
+}
+
+.snslist p {
 	width: 50px;
 	height: 50px;
 	margin-right: 70px;
 	margin-bottom: 5px;
 }
 
-.snslist img {
-	width: 45px;
-	height: 45px;
-	padding-top: 5px;
-	margin-right: 70px;
-	vertical-align: baseline;
+.snslist i,.snslist img {
+	width:100%;
+	height:100%;
 }
 
-.sns__list .sns__last{
-	margin-right:0;
+.sns__youtube{
+	margin-right:0 !important;
 }
+
 
 h1.article {
 	height: 184px;
@@ -1179,7 +1180,7 @@ label {
 }
 
 .wpcf7-submit {
-	margin-top: 60px;
+	margin: 60px auto 0;
 	width: 300px;
 	height: 60px;
 	border-radius: 10px;
@@ -1319,8 +1320,6 @@ ul li ul li a:before{
 	content:"▶︎";
 	top:13px;
 	left:18px;
-	
-
 }
 
 ul li ul li a:hover{
@@ -1521,19 +1520,39 @@ a.event__list{
 	background: #D0397A;
 }
 
-.report__btn{
+.report__btn,.terms__btn{
 	color:#EC6D74;
 	font-size:22px;
 	font-weight:bold;
 	margin:60px auto 0px;
-	width:170px;
 	display:flex;
 	justify-content:center;
-
+	position:relative;
 }
 
-.report__btn:hover{
-	border-bottom:2px solid #EC6D74;
+.report__btn{
+	width:170px;
+}
+
+.terms__btn{
+	width:140px;
+}
+
+.report__btn:after,
+.terms__btn:after{
+	position:absolute;
+	content:"";
+	bottom:-4.5px;
+	left:0;
+	width:0%;
+	height:2px;
+	background:#EC6D74;
+	transition:all 0.3s;
+}
+
+.report__btn:hover:after,
+.terms__btn:hover:after{
+	width:100%;
 }
 
 .service__flow__list{
