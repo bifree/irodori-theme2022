@@ -1672,3 +1672,51 @@ a.event__list{
 .flow__list__img img {
 	width: 100%;
 }
+
+/* ページネーション */
+.page-numbers{
+	display:flex;
+	font-weight:bold;
+}
+
+li .page-numbers{
+	width:30px;
+	height:30px;
+	margin:0 30px;
+	padding:0 9px;
+	line-height:30px;
+	box-sizing: border-box;
+	border:1px solid #fff;
+	border-radius:3px;
+}
+
+.page-numbers li:first-child{
+	margin-right:0;
+}
+
+li .page-numbers:hover{
+	border:1px solid #707070;
+	color:#333;
+}
+
+.current{
+	color:#6AC7FA;
+}
+
+.page-numbers .dots{
+	margin:0;
+}
+
+.current:hover{
+	border:1px solid #fff !important;
+	color:#6AC7FA !important;
+}
+
+.page-numbers .dots:hover{
+	border:1px solid #fff !important;
+	color:#333 !important;
+}
+
+.prev,.next{
+	margin:0px !important;
+}
