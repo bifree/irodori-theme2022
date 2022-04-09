@@ -23,9 +23,13 @@
     $categorys = array(5);
     for ($i=0; $i<count($categorys); $i++) :
     ?>
-
+      <?php
+//pagedに値をセットするのを忘れずに！
+    $the_query = new WP_Query( array(
+      'paged'       => get_query_var( 'paged' ) ? intval( get_query_var( 'paged' ) ) : 1,
+      'post_type'   => 'post'
+    ) ); ?>
     <?php
-    query_posts('showposts=5&cat='.$categorys[$i]);
     if (have_posts()) : while (have_posts()) : the_post();
     ?>
 
@@ -57,7 +61,22 @@
     <?php endif; ?>
     <?php endfor; ?>
     </div>
+    <?php
+    //ページネーション表示前に$GLOBALS['wp_query']->max_num_pagesに値をセット
+    $GLOBALS['wp_query']->max_num_pages = $the_query->max_num_pages;
+    the_posts_pagination(
+      array(
+        'end_size'       => '1', // ページ番号リストの両端に表示するページ数
+        'mid_size'      => 1, // 現在ページの左右に表示するページ番号の数
+        'prev_next'     => true, // 「前へ」「次へ」のリンクを表示する場合はtrue
+        'prev_text'     => __( '<'), // 「前へ」リンクのテキスト
+        'next_text'     => __( '>'), // 「次へ」リンクのテキスト
+        'type'          => 'list', // 戻り
+      )
+    );
 
+    wp_reset_postdata();
+    ?>
   </div>
   <?php get_template_part('sidebar'); ?>
 </div>
