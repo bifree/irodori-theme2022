@@ -60,8 +60,6 @@
 
     <?php endif; ?>
     <?php endfor; ?>
-    </div>
-
   </div>
   <?php
     //ページネーション表示前に$GLOBALS['wp_query']->max_num_pagesに値をセット
@@ -79,6 +77,8 @@
 
     wp_reset_postdata();
     ?>
+  </div>  
+  <?php get_template_part('sidebar'); ?>
 </div>
 
 </main>
