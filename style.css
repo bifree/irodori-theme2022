@@ -31,6 +31,15 @@ body {
 	height: 60px;
 	line-height: 60px;
 	text-align: center;
+	margin:0 auto;
+}
+
+.ajax-loader {
+	display:none !important;
+}
+
+.ajax-loader:before{
+	display:none !important;
 }
 
 .wpcf7
@@ -106,7 +115,15 @@ td {
 }
 
 .header {
+	width:100%;
+	height:95px;
 	display: flex;
+	justify-content:space-between;
+	position:fixed;
+	left:0;
+	right:0;
+	z-index:99;
+	background:#fff;
 }
 
 
@@ -121,6 +138,7 @@ td {
 
 .main_top .top--img ul{
 	list-style: none;
+	margin-top:95px;
 }
 
 .main_top .top--img ul img{
@@ -173,7 +191,7 @@ header li a{
 
 
 .logo {
-	margin-right: auto;
+	margin-left:45px;
 	height: 100px;
 	width: 200px;
 }
@@ -182,11 +200,7 @@ header li a{
 	width: 100%;
 }
 
-#header {
-	width: 80%;
-	margin: 0 auto;
-	display: flex;
-}
+
 
 .top--img {
 	height: 600px;

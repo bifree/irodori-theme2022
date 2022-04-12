@@ -14,7 +14,7 @@
 </head>
 <body>
 <header>
-	<div class="container header">
+	<div class=" header">
 		<div class="logo">
 			<a href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo"></a>
 		</div>
