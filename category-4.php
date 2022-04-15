@@ -24,12 +24,15 @@
     for ($i=0; $i<count($categorys); $i++) :
     ?>
       <?php
-//pagedに値をセットするのを忘れずに！
-    $the_query = new WP_Query( array(
-      'paged'       => get_query_var( 'paged' ) ? intval( get_query_var( 'paged' ) ) : 1,
-      'post_type'   => 'post'
-    ) ); ?>
-    <?php
+    $paged = (int) get_query_var('paged');
+    $args = array(
+        'post_type' => 'post',
+        'post_status' => 'publish',//公開記事のみ
+        'orderby' => 'date',//日付順
+        'order' => 'DESC',//昇順
+        'posts_per_page' => 6,//最大表示数
+        'paged' => $paged
+    );
     if (have_posts()) : while (have_posts()) : the_post();
     ?>
 
